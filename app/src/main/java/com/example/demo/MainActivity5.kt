@@ -28,6 +28,7 @@ class MainActivity5 : AppCompatActivity() {
                 ++ i;
             }
             resbox.setText(s);
+            TextBox.setText(" ");
 
         })
     }
