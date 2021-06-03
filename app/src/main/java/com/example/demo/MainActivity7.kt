@@ -43,7 +43,7 @@ class MainActivity7 : AppCompatActivity() {
             var food:String = Feed(day)
             res1.setText("Today is $day, You need to feed $food")
             when(ChangeWater(temperature,dirt,day)){
-                true -> res2.setText("Change Water is required")
+                true -> res2.setText("Change of Water is required")
                 false -> res2.setText("Change of water is not required")
             }
         }
