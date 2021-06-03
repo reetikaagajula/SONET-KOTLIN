@@ -29,20 +29,25 @@ class MainActivity6 : AppCompatActivity() {
                 "+" -> {
                     answer = add(x1,x2);
                     fres.setText("$answer");
+                    //fres.setText(" ");
                 }
                 "-" -> {
                     answer = diff(x1,x2);
                     fres.setText("$answer");
+                    //fres.setText(" ");
                 }
                 "*" -> {
                     answer = prod(x1,x2);
                     fres.setText("$answer");
+                    //fres.setText(" ");
                 }
                 "/" -> {
                     answer = quo(x1,x2);
                     fres.setText("$answer");
+                    //fres.setText(" ");
                 }
             }
+            //fres.setText(" ");
 
         })
     }
