@@ -13,9 +13,11 @@ class SonetQuiz : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sonet_quiz)
-        var q_button = findViewById<Button>(R.id.BuTTonn1)
+
+        var q_btn = findViewById<Button>(R.id.quiz_btn)
         var q_name = findViewById<EditText>(R.id.quiz_name)
-        q_button.setOnClickListener(View.OnClickListener {
+
+        q_btn.setOnClickListener(View.OnClickListener {
             Log.i("------->","Hello")
             if(q_name.toString().isEmpty()){
                 Toast.makeText(this@SonetQuiz,"Please enter name",Toast.LENGTH_LONG).show()

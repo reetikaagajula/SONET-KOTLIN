@@ -1,4 +1,5 @@
 package com.example.testdemo
-fun main(){
-    print("name")
+
+fun main() {
+    print("hello")
 }
