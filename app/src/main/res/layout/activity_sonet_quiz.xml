@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/EDText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#061A83"
+    tools:context=".SonetQuiz">
+
+    <TextView
+        android:id="@+id/sonetq"
+        android:layout_width="229dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="630dp"
+        android:gravity="center"
+        android:text="SONET QUIZ"
+        android:textColor="#ECE4E4"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cview"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="381dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="404dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="11dp"/>
+
+    <LinearLayout
+        android:id="@+id/llayout"
+        android:layout_width="374dp"
+        android:layout_height="231dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="1dp"
+        android:background="#F1EDED"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/Tv2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="                    ENTER YOUR NAME"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/quiz_name"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/BuTTonn1"
+            android:layout_width="195dp"
+            android:layout_height="79dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="START"
+            android:textSize="21sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
