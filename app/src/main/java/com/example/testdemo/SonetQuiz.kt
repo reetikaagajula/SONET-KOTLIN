@@ -28,5 +28,5 @@ class SonetQuiz : AppCompatActivity() {
                 finish()
             }
         })
-    }
+    }//quiz app
 }
