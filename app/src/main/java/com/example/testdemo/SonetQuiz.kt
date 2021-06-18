@@ -27,6 +27,7 @@ class SonetQuiz : AppCompatActivity() {
                 startActivity(next)
                 finish()
             }
-        })//quiz app
+        })
+        //new quiz app
     }
 }
